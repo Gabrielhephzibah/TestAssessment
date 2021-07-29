@@ -68,8 +68,10 @@ class HomeFragment : Fragment() {
     }
     private fun onSuccess(response : PopularArticleItem){
         val result = response.results
-        val listOfRecyclerList = result?.map{PopularArticleData(it.title, it.media?.first()?.mediaMetadata?.first()?.url,it.byline, it.publishedDate,it.abstract,it.source) }
+        val listOfRecyclerList = result?.map{PopularArticleData(it.title,  it.media?.firstOrNull()?.mediaMetadata?.firstOrNull()?.url,it.byline, it.publishedDate,it.abstract,it.source) }
         mAdapter?.submitList(listOfRecyclerList)
+
+
 
     }
 

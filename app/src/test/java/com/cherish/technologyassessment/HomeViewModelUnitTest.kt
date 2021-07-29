@@ -15,11 +15,10 @@ class HomeViewModelUnitTest {
     @get:Rule
     var executorRule = InstantTaskExecutorRule()
 
-    lateinit var homeViewModel: HomeViewModel
+    private lateinit var homeViewModel: HomeViewModel
     lateinit var repository: PopularArticleRepository
     @Before
     fun setUp(){
-
         val repo = Mockito.mock(PopularArticleRepository::class.java)
         homeViewModel = HomeViewModel(repo)
 

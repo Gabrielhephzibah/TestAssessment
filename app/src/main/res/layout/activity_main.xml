@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            app:title="NY Times Most Popular Articles"
+            app:title="@string/tool_bar_title"
             app:navigationIcon="@drawable/ic_hamburger"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"

@@ -17,4 +17,5 @@
     <string name="author">Author : Jame fev</string>
     <string name="source">Source : New York Times</string>
     <string name="date">2021-07-20</string>
+    <string name="tool_bar_title">NY Times Most Popular</string>
 </resources>
