@@ -4,10 +4,7 @@ This App shows a list of New York most popular articles with details.  Written i
 and Retrofit Client for HTTP Calls. Data is gotten from [NY Times API](https://developer.nytimes.com/get-started.) 
 
 
-
-
-
-#Features
+# Features
 * kotlin coroutines for async operations
 * kotlin flow for data streaming
 * Retrofit client for Http calls 
@@ -16,6 +13,13 @@ and Retrofit Client for HTTP Calls. Data is gotten from [NY Times API](https://d
 * Navigation component
 * RecyclerView to show display List
 * Dependency injection with Dagger Hilt
+
+### How to start application
+1. Clone or fork the repository by running the command below on your terminal
+        * git clone https://github.com/Gabrielhephzibah/TestAssessment.git
+2. Import or open the project on Android Studio
+3. Open gradle.build in Android Studio and run the app on an emulator or directly on an android device.
+     
 
 
 ### Libraries
